@@ -1,0 +1,9 @@
+.menu li {
+    display: inline;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.menu a {
+    /* color: yellow; */
+}
