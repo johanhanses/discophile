@@ -24,27 +24,7 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/albums": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/myalbums": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/signup": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
