@@ -60,7 +60,7 @@ function Nav() {
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+    href: "/albums",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -72,6 +72,72 @@ function Nav() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
+      columnNumber: 21
+    }
+  }, "All Albums"))), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/myalbums",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 21
+    }
+  }, "My Albums"))), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "signup",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 21
+    }
+  }, "Signup/Login"))), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, "About"))));
@@ -559,7 +625,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Navbar_menu__1gbeA li {\n    display: inline;\n    margin: 2rem;\n    font-size: 3rem;\n}\n\n.Navbar_menu__1gbeA a {\n    /* color: yellow; */\n}\n", "",{"version":3,"sources":["/Users/johan/Projects/discophile/components/Navbar.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,YAAY;IACZ,eAAe;AACnB;;AAEA;IACI,mBAAmB;AACvB","file":"Navbar.module.css","sourcesContent":[".menu li {\n    display: inline;\n    margin: 2rem;\n    font-size: 3rem;\n}\n\n.menu a {\n    /* color: yellow; */\n}\n"]}]);
+exports.push([module.i, ".Navbar_menu__1gbeA li {\n    display: inline;\n    margin: 1rem;\n    font-size: 2rem;\n}\n\n.Navbar_menu__1gbeA a {\n    /* color: yellow; */\n}\n\n@media (max-width: 600px) {\n    .Navbar_menu__1gbeA li {\n        display: block;\n        font-size: 1rem;\n        margin: 0.5rem;\n    }\n    .Navbar_menu__1gbeA a {\n        float: right;\n    }\n}\n", "",{"version":3,"sources":["/Users/johan/Projects/discophile/components/Navbar.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,YAAY;IACZ,eAAe;AACnB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI;QACI,cAAc;QACd,eAAe;QACf,cAAc;IAClB;IACA;QACI,YAAY;IAChB;AACJ","file":"Navbar.module.css","sourcesContent":[".menu li {\n    display: inline;\n    margin: 1rem;\n    font-size: 2rem;\n}\n\n.menu a {\n    /* color: yellow; */\n}\n\n@media (max-width: 600px) {\n    .menu li {\n        display: block;\n        font-size: 1rem;\n        margin: 0.5rem;\n    }\n    .menu a {\n        float: right;\n    }\n}\n"]}]);
 // Exports
 exports.locals = {
 	"menu": "Navbar_menu__1gbeA"
@@ -4914,7 +4980,7 @@ function About() {
       lineNumber: 12,
       columnNumber: 13
     }
-  }, "Johan Hanses ", new Date().getFullYear()));
+  }, "Discophile \xA9 ", new Date().getFullYear()));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (About);

@@ -9,7 +9,7 @@ function About() {
 
                 <p className="description">About</p>
             </main>
-            <footer>Johan Hanses {new Date().getFullYear()}</footer>
+            <footer>Discophile © {new Date().getFullYear()}</footer>
         </div>
     );
 }

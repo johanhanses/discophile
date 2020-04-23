@@ -15,7 +15,7 @@ export default function Home() {
                 <p className="description"></p>
             </main>
 
-            <footer>Johan Hanses {new Date().getFullYear()}</footer>
+            <footer>Discophile © {new Date().getFullYear()}</footer>
 
             <style jsx>{`
                 .title a {
@@ -43,13 +43,6 @@ export default function Home() {
                 .description {
                     line-height: 1.5;
                     font-size: 1.5rem;
-                }
-
-                @media (max-width: 600px) {
-                    .grid {
-                        width: 100%;
-                        flex-direction: column;
-                    }
                 }
             `}</style>
         </div>

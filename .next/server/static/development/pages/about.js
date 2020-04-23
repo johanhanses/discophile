@@ -175,7 +175,7 @@ function Nav() {
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+    href: "/albums",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -187,6 +187,72 @@ function Nav() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
+      columnNumber: 21
+    }
+  }, "All Albums"))), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/myalbums",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 21
+    }
+  }, "My Albums"))), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "signup",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 21
+    }
+  }, "Signup/Login"))), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, "About"))));
@@ -1942,7 +2008,7 @@ function About() {
       lineNumber: 12,
       columnNumber: 13
     }
-  }, "Johan Hanses ", new Date().getFullYear()));
+  }, "Discophile \xA9 ", new Date().getFullYear()));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (About);

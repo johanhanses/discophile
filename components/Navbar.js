@@ -10,6 +10,25 @@ function Nav() {
                 </Link>
             </li>
             <li>
+                <Link href="/albums">
+                    <a>All Albums</a>
+                </Link>
+            </li>
+
+            {/* conditionally rendered later on */}
+            <li>
+                <Link href="/myalbums">
+                    <a>My Albums</a>
+                </Link>
+            </li>
+
+            <li>
+                <Link href="signup">
+                    <a>Signup/Login</a>
+                </Link>
+            </li>
+
+            <li>
                 <Link href="/about">
                     <a>About</a>
                 </Link>
